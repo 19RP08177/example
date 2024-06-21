@@ -168,7 +168,7 @@ function App() {
         return;
       }
       else if (existdepname) {
-        alert('The name is Already exist !!!');
+        alert('The name is Already exist !!');
         return;
       }
       await example_backend.addDepartment(newDepartment.DeptId, newDepartment.departmentName);
